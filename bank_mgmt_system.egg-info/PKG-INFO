@@ -1,5 +1,5 @@
 Metadata-Version: 2.4
-Name: bank-mgmt-system
+Name: bank_mgmt_system
 Version: 0.1.0
 Summary: SecureBank subsystem with domain, services, persistence, routing, and CLI menu.
 Author-email: Joseph Bevels <n00661116@unf.edu>

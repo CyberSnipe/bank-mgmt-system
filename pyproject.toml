@@ -8,7 +8,7 @@ requires = ["setuptools>=75.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "bank-mgmt-system"
+name = "bank_mgmt_system"
 version = "0.1.0"
 description = "SecureBank subsystem with domain, services, persistence, routing, and CLI menu."
 readme = "README.md"
@@ -38,5 +38,8 @@ package-dir = { "" = "src" }
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.distutils.egg_info]
+egg_base = "."
 
 

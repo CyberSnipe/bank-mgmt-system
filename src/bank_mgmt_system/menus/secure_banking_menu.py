@@ -1,6 +1,4 @@
-from src.domain.bank_account import BankAccount
-from src.service.banking_service import create_account
-
+# Secure Banking Menu
 def secure_banking_menu():
     
     while True:
@@ -17,42 +15,35 @@ def secure_banking_menu():
         choice = input("Enter a number...: ").strip()
                 
         if choice == '1':
-            create_account()
+            #create_account()
             print("Coming soon...create_account")
             input("Press Enter to continue...")
-            continue
         elif choice == '2':
             #deposit()
             print("Coming soon...deposit")
             input("Press Enter to continue...")
-            continue
         elif choice == '3':
             #withdrawl()
             print("Coming soon...withdrawl")
             input("Press Enter to continue...")
-            continue
         elif choice == '4':
             #check_balance()
             print("Coming soon...check_balance")
             input("Press Enter to continue...")
-            continue
         elif choice == '5':
             #save_bank_data()
             print("Coming soon...save_bank_data")
             input("Press Enter to continue...")
-            continue
         elif choice == '6':
             #load_bank_data
             print("Coming soon...load_bank_data")
             input("Press Enter to continue...")
-            continue
         elif choice == '0':
             print("Thank you for visiting SecureBank....\n")
             break
         else:
             print("Invalid entry. Enter a valid number...0-6\n")
             input("Press Enter to contiue...")
-            continue
 
 if __name__ == "__main__":
     secure_banking_menu()

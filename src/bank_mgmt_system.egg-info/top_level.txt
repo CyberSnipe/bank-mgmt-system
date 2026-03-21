@@ -1,0 +1,6 @@
+domain
+logs
+menus
+persistence
+service
+tests

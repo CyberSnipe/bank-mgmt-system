@@ -2,12 +2,22 @@
 from domain.bank_account import BankAccount
 
 class BankingService:
-    bank_account = BankAccount
-    def __init__(self, bank_account):
-        self.bank_account = bank_account
-        
+    db_bank_account = BankAccount
+           
+    def create_account(self):
+        pass
+    
     def deposit(self):
         pass
     
     def withdrawl(self):
-        pass 
+        pass
+    
+    def check_balance(self):
+        pass
+    
+    def save_bank_data(self):
+        pass
+    
+    def load_bank_data(self):
+        pass
